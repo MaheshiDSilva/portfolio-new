@@ -436,6 +436,13 @@ span{
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+.portfolio .btn{
+    width: 16rem;
+    display: flex;
+    margin-left: 55rem;
+    justify-content: center;
+    margin-top: 4rem;
+}
 
 
 /*skills section*/
