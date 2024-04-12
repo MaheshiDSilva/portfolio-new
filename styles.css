@@ -12,12 +12,14 @@
 }
 
 :root {
-    --bg-color: #0A2640;
-    --second-bg-color:  #0A2640;
-    /*--second-bg-color: rgba(238, 228, 228, 0.27);*/
+    --bg-color: linear-gradient(to top, #09203f 0%, #537895 100%);
+    /*--bg-color: #0A2640;*/
+    /*--second-bg-color:  #0A2640;*/
+    --second-bg-color:  linear-gradient(to top, #09203f 0%, #537895 100%);
     --text-color: #fff;
     --main-color: #4b9eb7;
-    --heading-color: #ea0bc8;
+    /*--heading-color: #ef21d0;*/
+    --heading-color: #f547d1;
 }
 
 html {
@@ -215,7 +217,8 @@ span{
 }
 .typing-text span::before{
     content: 'UI/UX Developer';
-    color: var(--main-color);
+    color: #4daade;
+    /*color: var(--main-color);*/
     animation: words 20s infinite;
 }
 .typing-text span::after{
@@ -534,7 +537,7 @@ span{
     position: relative;
     background-color: inherit;
     width: 50%;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .education .container::after{
     content: '\f501';
@@ -647,6 +650,7 @@ span{
 
 /*contact section*/
 .contact{
+    /*background: #0A2640;*/
     background: var(--second-bg-color);
 }
 .contact h2{
@@ -670,7 +674,7 @@ span{
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: #0A2640;
     border-radius: 0.8rem;
     border: 2px solid var(--main-color);
     margin: 1rem 0;
@@ -686,7 +690,7 @@ span{
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: #000000;
+    background-color: #070707;
     /*background-color: var(--bg-color);*/
 }
 .footer .social{
